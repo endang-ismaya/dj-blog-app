@@ -11,4 +11,5 @@
     <p class="date">Published {{ post.publish_at }} by {{ post.author }}</p>
     {{ post.body|truncatewords:30|markdown }}
   {% endfor %}
+  {% include 'includes/pagination.html' with page=posts %}
 {% endblock %}
