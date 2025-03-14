@@ -3,7 +3,7 @@
   Share a post
 {% endblock %}
 {% block content %}
-  {% if sent %}
+  {% if send_flag %}
     <h1>E-mail successfully sent</h1>
     <p>"{{ post.title }}" was successfully sent to {{ form.cleaned_data.to }}.</p>
   {% else %}
