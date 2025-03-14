@@ -10,4 +10,5 @@ urlpatterns = [
         name="blog__post_detail",
     ),
     path("posts/", views.PostListView.as_view(), name="blog__post_list_view"),
+    path("<int:post_id>/share/", views.post_share, name="blog__post_share"),
 ]
