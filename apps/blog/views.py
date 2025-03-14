@@ -1,6 +1,8 @@
-from django.shortcuts import get_object_or_404, render
-from apps.blog.models import Post
 from django.core.paginator import Paginator
+from django.shortcuts import get_object_or_404, render
+from django.views.generic import ListView
+
+from apps.blog.models import Post
 
 
 def post_list(request):
@@ -29,3 +31,12 @@ def post_detail(request, year, month, day, post):
 
     context = {"post": post}
     return render(request, "blog/post/detail.html", context)
+
+
+class PostListView(ListView):
+    """blog list view"""
+
+    queryset = Post.published.all()
+    context_object_name = "posts"
+    paginate_by = 5
+    template_name = "blog/post/list.html"
