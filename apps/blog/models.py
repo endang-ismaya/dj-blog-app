@@ -42,7 +42,7 @@ class Post(models.Model):
 
     def get_absolute_url(self):
         return reverse(
-            "blog__post_detail",
+            "blog:post_detail",
             args=[
                 self.publish_at.year,
                 self.publish_at.month,
@@ -56,7 +56,7 @@ class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="comments")
     name = models.CharField(max_length=80)
     email = models.EmailField()
-    body = models.TextField
+    body = models.TextField(default="")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     active = models.BooleanField(default=True)

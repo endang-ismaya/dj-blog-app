@@ -9,6 +9,25 @@
   <p class="date">Published {{ post.publish_at }} by {{ post.author }}</p>
   {{ post.body|markdown }}
   <p>
-    <a href="{% url 'blog__post_share' post.id %}">Share this post</a>
+    <a href="{% url 'blog:post_share' post.id %}">Share this post</a>
   </p>
+
+  <!-- Comments -->
+  {% with total_comments=comments.count %}
+    <h2>{{ total_comments }} comment{{ total_comments|pluralize }}</h2>
+  {% endwith %}
+
+  <!-- Show All Comments of the Post -->
+  {% for comment in comments %}
+    <div class="comment">
+      <p class="info">Comment {{ forloop.counter }} by {{ comment.name }}
+        {{ comment.created_at }}</p>
+      {{ comment.body|linebreaks }}
+    </div>
+  {% empty %}
+    <p>There are no comments.</p>
+  {% endfor %}
+
+  <!-- Comment's Form -->
+  {% include 'blog/post/includes/comment_form.html' %}
 {% endblock %}
