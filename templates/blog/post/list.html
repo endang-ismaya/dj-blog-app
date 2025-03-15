@@ -24,7 +24,7 @@
       </p>
     {% endif %}
     <p class="date">Published {{ post.publish_at }} by {{ post.author }}</p>
-    {{ post.body|truncatewords:30|markdown }}
+    {{ post.body|markdown|truncatewords:30 }}
   {% endfor %}
   {% if page_obj %}
     {% include 'includes/pagination.html' with page=page_obj %}
