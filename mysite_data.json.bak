@@ -1,0 +1,1260 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-03-14T04:06:34.849Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Hello World",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-03-14T04:30:02.238Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "From Zero to Python Hero: Your Beginner's Guide to Learning Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-03-14T04:30:08.638Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "From Zero to Python Hero: Your Beginner's Guide to Learning Python",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-03-14T04:31:59.105Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Hello World",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-03-14T04:32:04.240Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "From Zero to Python Hero: Your Beginner's Guide to Learning Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-03-14T06:00:35.931Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "From Zero to Python Hero: Your Beginner's Guide to Learning Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-03-14T06:24:32.692Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Unearthing Hidden Treasures: A Weekend Adventure in [Your City/Region]",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-03-14T06:25:39.385Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "he Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-03-14T06:26:24.317Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Building a Reading Habit: Tips for Busy Lives",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-03-14T06:26:41.566Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Title: \"The Beginner's Guide to Urban Photography",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-03-14T06:27:02.557Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "DIY Home Spa Day: Relaxation on a Budget",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-03-14T06:27:25.244Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "The Power of Journaling: Benefits and Techniques",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-03-14T06:27:59.761Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Beginner's Guide to Urban Photography",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-03-14T06:28:30.445Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-03-14T06:29:44.047Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-03-14T06:30:12.455Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-03-14T06:31:24.519Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-03-14T06:31:49.408Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-03-14T06:31:58.791Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-03-14T06:32:50.541Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-03-14T06:33:19.488Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-03-14T06:33:57.289Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-03-14T06:34:36.278Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "The Power of Journaling: Benefits and Techniques",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-03-14T06:34:57.888Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "The Power of Journaling: Benefits and Techniques",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-03-14T06:35:33.254Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "DIY Home Spa Day: Relaxation on a Budget",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-03-14T06:36:02.803Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Building a Reading Habit: Tips for Busy Lives",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-03-14T06:36:12.828Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Building a Reading Habit: Tips for Busy Lives",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-03-14T06:36:55.506Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-03-14T06:38:15.252Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Unearthing Hidden Treasures: A Weekend Adventure in Jakarta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-03-14T06:38:25.413Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Unearthing Hidden Treasures: A Weekend Adventure in Jakarta",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-03-14T06:39:44.433Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Jakarta Underwater: Understanding and Coping with the City's Persistent Floods",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-03-15T07:05:11.138Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by japong on Jakarta Underwater: Understanding and Coping with the City's Persistent Floods",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-03-15T07:30:38.032Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Beginner's Guide to Urban Photography",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-03-15T07:31:19.678Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Beginner's Guide to Urban Photography",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-03-15T07:32:31.685Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Beginner's Guide to Urban Photography",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-03-15T07:34:25.610Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Beginner's Guide to Urban Photography",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-03-15T07:53:41.706Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "DIY Home Spa Day: Relaxation on a Budget",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-03-15T10:24:57.866Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "127.0.0.1:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$OgQiijKn9hcBKWCFsJKEfr$GaowUXc1vhp660J6pBegQoC/MI+DYqSuc0CxfviNra4=",
+    "last_login": "2025-03-15T07:01:28.780Z",
+    "is_superuser": true,
+    "username": "eimdev",
+    "first_name": "",
+    "last_name": "",
+    "email": "eim.rundev@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-03-14T03:57:15.759Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cpczxvsl6fz2ehdcktw1euyfnlgf6sac",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnYm9hrSnrOYO3H4ABKpDipEHeHSCmgfTPzXibTutS8tjLnQc3JOHP43ZjkUcYN6J3G22RlGpd5YLspdqfNXiYtz_Pu_h1UavVbl-g6TE4SxpQQoneoDkooqACJhKDDnvGIgUGgVwksqhACXz17T-b9Ab1tN4g:1tswBB:Gi9BW4c7Cmi8NW7G_mcPRg2nLBrMVRQvbA_9LXmvkeg",
+    "expire_date": "2025-03-28T03:57:49.371Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y5nrwj70bzspyzo082t6ah68tzahrynq",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnYm9hrSnrOYO3H4ABKpDipEHeHSCmgfTPzXibTutS8tjLnQc3JOHP43ZjkUcYN6J3G22RlGpd5YLspdqfNXiYtz_Pu_h1UavVbl-g6TE4SxpQQoneoDkooqACJhKDDnvGIgUGgVwksqhACXz17T-b9Ab1tN4g:1ttLWS:MsYqvIBcBT5v4QhXPetJPIfDUSqdzze6-Uk2v7MbgPo",
+    "expire_date": "2025-03-29T07:01:28.782Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "127.0.0.1:8000",
+    "name": "endangismaya.com"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Hello World",
+    "slug": "hello-world",
+    "author": 1,
+    "body": "Hello World is the first thing to print to the world when learning a programming language.",
+    "publish_at": "2025-03-14T04:05:43Z",
+    "created_at": "2025-03-14T04:06:34.847Z",
+    "updated_at": "2025-03-14T04:31:59.104Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "From Zero to Python Hero: Your Beginner's Guide to Learning Python",
+    "slug": "from-zero-to-python-hero-your-beginners-guide-to-learning-python",
+    "author": 1,
+    "body": "So, you've decided to dive into the world of Python. Excellent choice! Whether you're aiming for data science, web development, automation, or just want to understand the magic behind the code, Python is a fantastic language to start with. Its readability and versatility make it a favorite for beginners and seasoned programmers alike.\r\n\r\nBut where do you begin when you're starting from absolute zero? Let's break it down into manageable steps.\r\n\r\n**1. Set Your Goals and Mindset:**\r\n\r\n* **Why Python?** Before you start coding, clarify your \"why.\" Are you interested in building websites, analyzing data, or automating tasks? Knowing your motivation will keep you going.\r\n* **Embrace the Learning Curve:** Learning any programming language takes time and effort. Don't get discouraged by initial challenges. Everyone starts somewhere!\r\n* **Consistency is Key:** Dedicate regular time to practice, even if it's just 30 minutes a day. Consistent effort trumps marathon sessions.\r\n\r\n**2. The Essentials: Setting Up Your Environment:**\r\n\r\n* **Install Python:** Download the latest version of Python from the official website (python.org). Make sure to check the box that says \"Add Python to PATH\" during installation.\r\n* **Choose an IDE or Text Editor:**\r\n    * **IDEs (Integrated Development Environments):** These provide a comprehensive environment for coding, debugging, and project management. Popular options include:\r\n        * **VS Code (Visual Studio Code):** Free, highly customizable, and widely used.\r\n        * **PyCharm:** A powerful IDE specifically designed for Python.\r\n        * **Thonny:** a beginner friendly IDE.\r\n    * **Text Editors:** Simpler than IDEs, but still effective for writing code. Options include:\r\n        * Sublime Text\r\n        * Atom (though Atom is no longer being actively developed)\r\n* **\"Hello, World!\":** Your first program! Open your chosen editor, type `print(\"Hello, World!\")`, save the file as `hello.py`, and run it. If you see \"Hello, World!\" printed in the console, you've successfully executed your first Python program!\r\n\r\n**3. Grasping the Fundamentals:**\r\n\r\n* **Variables and Data Types:** Understand how to store data using variables and learn about basic data types like integers, floats, strings, and booleans.\r\n* **Operators:** Learn how to perform operations on data using arithmetic, comparison, and logical operators.\r\n* **Control Flow:** Master conditional statements (`if`, `elif`, `else`) and loops (`for`, `while`) to control the flow of your program.\r\n* **Data Structures:** Explore lists, tuples, dictionaries, and sets, which are essential for organizing and manipulating data.\r\n* **Functions:** Learn how to define and call functions to create reusable blocks of code.\r\n* **Modules and Libraries:** Discover how to use pre-built modules and libraries to extend Python's functionality.\r\n\r\n**4. Learning Resources:**\r\n\r\n* **Online Courses:**\r\n    * **Codecademy:** Interactive lessons and projects.\r\n    * **Coursera:** Courses from top universities and institutions.\r\n    * **Udemy:** A wide range of Python courses for all levels.\r\n    * **freeCodeCamp:** Free courses with a focus on practical projects.\r\n* **YouTube Tutorials:** Search for \"Python for beginners\" and you'll find countless helpful videos.\r\n* **Books:**\r\n    * \"Python Crash Course\" by Eric Matthes\r\n    * \"Automate the Boring Stuff with Python\" by Al Sweigart\r\n* **Official Python Documentation:** A comprehensive resource for all things Python.\r\n* **Online Communities:**\r\n    * Stack Overflow: A Q&A site for programmers.\r\n    * Reddit (r/learnpython, r/python): Communities for Python learners and enthusiasts.\r\n    * Discord python servers.\r\n\r\n**5. Practice, Practice, Practice:**\r\n\r\n* **Coding Challenges:** Solve coding challenges on platforms like HackerRank, LeetCode, and Codewars to improve your problem-solving skills.\r\n* **Small Projects:** Start building small projects to apply your knowledge. Examples include a simple calculator, a to-do list app, or a text-based game.\r\n* **Contribute to Open Source:** Contributing to open-source projects is a great way to learn from experienced developers and build your portfolio.\r\n* **Read other peoples code:** Reading well written code will help you understand different coding styles, and different ways to solve problems.\r\n\r\n**6. Stay Curious and Keep Learning:**\r\n\r\nPython is a constantly evolving language. Stay curious, explore new libraries and frameworks, and never stop learning.\r\n\r\n**Key Takeaways:**\r\n\r\n* Start with the basics and build a strong foundation.\r\n* Practice regularly and apply your knowledge to real-world projects.\r\n* Use online resources and communities to support your learning journey.\r\n* Don't be afraid to experiment and make mistakes.\r\n\r\nLearning Python is an exciting and rewarding journey. With dedication and perseverance, you'll be well on your way to becoming a proficient Python programmer. Happy coding!",
+    "publish_at": "2025-03-14T04:29:36Z",
+    "created_at": "2025-03-14T04:30:02.236Z",
+    "updated_at": "2025-03-14T06:00:35.929Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Unearthing Hidden Treasures: A Weekend Adventure in Jakarta",
+    "slug": "unearthing-hidden-treasures-a-weekend-adventure-in-jakarta",
+    "author": 1,
+    "body": "Jakarta, the sprawling capital of Indonesia, often conjures images of towering skyscrapers and bustling shopping centers. But beyond the modern facade lies a city rich in history, culture, and hidden gems waiting to be explored. Forget the typical tourist traps; let's embark on a weekend adventure that reveals the authentic soul of Jakarta.\r\n\r\n**Day 1: History, Heritage, and Hidden Courtyards**\r\n\r\n* **Morning: Kota Tua (Old Town) Immersion:**\r\n    * Start your day in Kota Tua, Jakarta's historic heart. Wander through the cobblestone streets, marvel at the Dutch colonial architecture, and visit iconic landmarks like Fatahillah Square and the Jakarta History Museum.\r\n    * **Pro Tip:** Rent a colorful \"onthel\" bicycle to explore the area like a local.\r\n* **Afternoon: Hidden Courtyards and Traditional Crafts:**\r\n    * Venture into the back alleys of Kota Tua to discover hidden courtyards and traditional craft workshops. Seek out local artisans creating batik textiles or wayang puppets.\r\n    * **Local Experience:** Try a traditional \"es selendang mayang\" a sweet coconut dessert sold by street vendors.\r\n* **Evening: Culinary Delights at Glodok (Chinatown):**\r\n    * Immerse yourself in the vibrant atmosphere of Glodok, Jakarta's Chinatown. Sample authentic Chinese-Indonesian cuisine at local hawker stalls and restaurants.\r\n    * **Foodie Recommendation:** Try \"bakmi ayam\" (chicken noodles) from a local vendor, or explore the many seafood options.\r\n\r\n**Day 2: Art, Culture, and Urban Oasis**\r\n\r\n* **Morning: Exploring Taman Mini Indonesia Indah (TMII):**\r\n    * Experience the diversity of Indonesia at Taman Mini Indonesia Indah (Beautiful Indonesia Miniature Park). This sprawling park showcases traditional houses, cultural performances, and regional artifacts from across the archipelago.\r\n    * **Cultural Highlight:** Watch a traditional dance performance or explore the different regional houses.\r\n* **Afternoon: Art Scene at Kemang:**\r\n    * Head to Kemang, a trendy neighborhood known for its art galleries, cafes, and boutiques. Explore independent art spaces and discover the city's contemporary art scene.\r\n    * **Artistic Exploration:** Find a small art gallery and spend some time enjoying the local artist's creations.\r\n* **Evening: Urban Oasis at Taman Suropati:**\r\n    * End your weekend adventure at Taman Suropati, a serene park in the heart of Menteng. Enjoy a relaxing stroll, listen to live music (often played by local musicians), and watch the sunset.\r\n    * **Relaxation Tip:** Grab a coffee or snack from a nearby cafe and enjoy the peaceful atmosphere.\r\n\r\n**Tips for Your Jakarta Adventure:**\r\n\r\n* **Transportation:** Use ride-hailing apps like Gojek or Grab for convenient and affordable transportation. TransJakarta buses are also a budget-friendly option.\r\n* **Language:** While many Jakartans speak English, learning a few basic Indonesian phrases will enhance your experience.\r\n* **Food:** Jakarta is a culinary paradise. Be adventurous and try local delicacies.\r\n* **Safety:** Jakarta is generally safe, but be aware of your surroundings and take precautions against petty theft.\r\n* **Weather:** Jakarta is hot and humid. Dress comfortably and stay hydrated.\r\n\r\n**Beyond the Tourist Trail:**\r\n\r\nThis itinerary is just a starting point. Jakarta offers endless opportunities for exploration. Venture beyond the usual tourist attractions, engage with locals, and discover the hidden gems that make this city so unique.\r\n\r\n**Call to Action:**\r\n\r\nWhat are your favorite hidden gems in Jakarta? Share your recommendations in the comments below! Let's inspire others to explore the authentic side of this vibrant city.",
+    "publish_at": "2025-03-14T06:23:54Z",
+    "created_at": "2025-03-14T06:24:32.690Z",
+    "updated_at": "2025-03-14T06:38:25.411Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "The Minimalist Kitchen: Essential Tools and Mindful Cooking",
+    "slug": "he-minimalist-kitchen-essential-tools-and-mindful-cooking",
+    "author": 1,
+    "body": "In a world brimming with kitchen gadgets promising culinary miracles, it's easy to feel overwhelmed. But what if we took a step back? What if we embraced simplicity and intentionality in our cooking? Welcome to the minimalist kitchen, a space where less is truly more.\r\n\r\nA minimalist kitchen isn't about bare cupboards or sacrificing flavor. It's about curating a collection of essential, high-quality tools and adopting a mindful approach to cooking. It's about rediscovering the joy of simple ingredients and the satisfaction of preparing food with care.\r\n\r\n**The Essential Toolkit: Quality Over Quantity**\r\n\r\nThe foundation of a minimalist kitchen lies in its carefully chosen tools. Here's a curated list of must-haves:\r\n\r\n* **A High-Quality Chef's Knife:** The workhorse of the kitchen. Invest in a knife that feels comfortable and holds its edge.\r\n* **A Sturdy Cutting Board:** Opt for wood or bamboo, gentle on your knives and durable.\r\n* **A Cast-Iron Skillet:** Versatile for searing, frying, baking, and more. A kitchen staple.\r\n* **A Saucepan and Stockpot:** For sauces, soups, and boiling. Choose sizes that fit your needs.\r\n* **A Set of Mixing Bowls:** Nesting bowls save space and are essential for various tasks.\r\n* **A Wooden Spoon and Spatula:** Gentle on cookware and perfect for stirring and flipping.\r\n\r\n**Mindful Cooking: More Than Just a Meal**\r\n\r\nMinimalist cooking goes beyond just the tools; it's about a shift in mindset. It's about:\r\n\r\n* **Embracing Whole, Fresh Ingredients:** Focus on seasonal produce and simple ingredients. Let their natural flavors shine.\r\n* **Planning Meals to Reduce Waste:** Take inventory before shopping and use what you have.\r\n* **Savoring the Cooking Process:** Slow down, engage your senses, and appreciate the act of creating.\r\n* **Appreciating Simple Flavors:** Learn to enhance natural flavors with herbs, spices, and seasonings.\r\n\r\n**A Simple Recipe: One-Pan Roasted Vegetables**\r\n\r\nTo illustrate the beauty of minimalist cooking, here's a simple and delicious recipe:\r\n\r\n**Ingredients:**\r\n\r\n* Seasonal vegetables (e.g., carrots, broccoli, potatoes, peppers)\r\n* Olive oil\r\n* Salt and pepper\r\n* Optional: Herbs (e.g., rosemary, thyme)\r\n\r\n**Instructions:**\r\n\r\n1.      Preheat oven to 400°F (200°C).\r\n2.      Chop vegetables into similar-sized pieces.\r\n3.      Toss vegetables with olive oil, salt, pepper, and herbs (if using) on a baking sheet.\r\n4.      Roast for 20-30 minutes, or until tender and caramelized.\r\n\r\nThis recipe showcases how a few quality ingredients and minimal tools can create a flavorful and satisfying meal.\r\n\r\n**The Benefits of a Minimalist Kitchen:**\r\n\r\n* **Reduced Clutter:** A more organized and peaceful kitchen.\r\n* **Increased Focus:** Less distractions, more attention to the cooking process.\r\n* **Reduced Food Waste:** Mindful planning leads to less waste.\r\n* **Cost-Effective:** Investing in quality tools means they last longer.\r\n* **Enhanced Cooking Enjoyment:** A simpler approach leads to more satisfaction.\r\n\r\n**Conclusion:**\r\n\r\nThe minimalist kitchen is an invitation to slow down, simplify, and rediscover the joy of cooking. By focusing on essential tools and mindful practices, you can create delicious meals with less stress and more satisfaction. So, declutter your kitchen, embrace simplicity, and savor the process of cooking.",
+    "publish_at": "2025-03-14T06:24:35Z",
+    "created_at": "2025-03-14T06:25:39.383Z",
+    "updated_at": "2025-03-14T06:36:55.504Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Building a Reading Habit: Tips for Busy Lives",
+    "slug": "building-a-reading-habit-tips-for-busy-lives",
+    "author": 1,
+    "body": "In the whirlwind of modern life, where notifications buzz and screens beckon, finding time to curl up with a good book can feel like a luxury. But the truth is, reading is an essential act of self-care, a mental workout, and a portal to countless worlds. Even the busiest among us can cultivate a thriving reading habit with a few strategic tweaks.\r\n\r\n**Why Bother Reading? The Undeniable Benefits:**\r\n\r\nBefore we dive into the \"how,\" let's remind ourselves of the \"why.\" Reading isn't just a pastime; it's a powerful tool for personal growth:\r\n\r\n* **Enhanced Focus and Concentration:** In a world of fleeting attention spans, reading trains your brain to sustain focus for extended periods.\r\n* **Expanded Knowledge and Vocabulary:** Books expose you to new ideas, concepts, and words, broadening your horizons and improving your communication skills.\r\n* **Stress Reduction:** Immersing yourself in a good story can transport you to another world, providing a much-needed escape from daily stressors.\r\n* **Improved Memory and Cognitive Function:** Reading stimulates your brain, keeping it sharp and engaged.\r\n* **Increased Empathy and Understanding:** Stories allow you to step into the shoes of others, fostering empathy and broadening your perspective.\r\n\r\n**Tips and Tricks for Busy Bees:**\r\n\r\nNow, let's get down to the practicalities. How do you build a reading habit when your schedule is packed?\r\n\r\n* **Start Small and Set Realistic Goals:** Don't aim to read a novel a week if you haven't read in months. Begin with 15-20 minutes of reading a day. Consistency is key.\r\n* **Find Your Reading Niche:** Explore different genres and authors to discover what truly captivates you. Whether it's historical fiction, sci-fi, or self-help, finding your passion will make reading more enjoyable.\r\n* **Create a Dedicated Reading Space:** Designate a cozy corner in your home as your reading sanctuary. Minimize distractions by keeping it clutter-free and quiet.\r\n* **Utilize Audiobooks:** Commuting, exercising, or doing chores? Turn those mundane tasks into opportunities for literary immersion. Audiobooks are a fantastic way to consume books on the go.\r\n* **Always Carry a Book (or E-reader):** You never know when you'll have a few spare minutes. Keep a book or e-reader handy for waiting rooms, commutes, or unexpected downtime.\r\n* **Schedule Reading Time:** Treat reading like any other important appointment. Block out time in your calendar and stick to it.\r\n* **Embrace Short Bursts of Reading:** Even five minutes of reading here and there can add up over time. Don't feel pressured to read for long stretches.\r\n* **Join a Book Club:** Book clubs provide accountability and a sense of community. Discussing books with others can enhance your understanding and enjoyment.\r\n* **Prioritize Reading Over Mindless Scrolling:** When you find yourself reaching for your phone to scroll through social media, reach for a book instead.\r\n* **Don't Feel Guilty About DNF-ing (Did Not Finish):** If a book isn't grabbing you, don't force yourself to finish it. Life's too short for books you don't enjoy.\r\n\r\n**Making Reading a Habit, Not a Chore:**\r\n\r\nThe goal is to make reading an enjoyable part of your daily routine, not a chore. Be patient with yourself, experiment with different strategies, and celebrate your progress.\r\n\r\n**The Takeaway:**\r\n\r\nBuilding a reading habit is an investment in yourself. It's a way to expand your mind, reduce stress, and enrich your life. Even in the busiest of lives, a few minutes a day can make a world of difference. So, grab a book, find a cozy spot, and embark on a literary adventure.",
+    "publish_at": "2025-03-14T06:25:39Z",
+    "created_at": "2025-03-14T06:26:24.316Z",
+    "updated_at": "2025-03-14T06:36:12.826Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "The Beginner's Guide to Urban Photography",
+    "slug": "title-the-beginners-guide-to-urban-photography",
+    "author": 1,
+    "body": "You don't need a fancy camera or exotic locations to capture stunning photographs. Your own city is a treasure trove of photographic opportunities. Let's explore the world of urban photography.\r\n\r\n## Body:\r\n    - Explore Different Perspectives:\r\n       - Look up, look down, and look around corners\r\n        - Find unique angles and compositions\r\n    - Capture the Light:\r\n        - Golden hour (the hour before sunset) and blue hour (the hour after sunset) offer beautiful lighting\r\n        - Experiment with shadows and reflections.",
+    "publish_at": "2025-03-14T06:26:24Z",
+    "created_at": "2025-03-14T06:26:41.565Z",
+    "updated_at": "2025-03-15T07:34:25.607Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "DIY Home Spa Day: Relaxation on a Budget",
+    "slug": "diy-home-spa-day-relaxation-on-a-budget",
+    "author": 1,
+    "body": "We all crave a little pampering, a moment to escape the daily grind and recharge our batteries. But who says you need to spend a fortune at a fancy spa to achieve that blissful feeling? With a little creativity and some simple ingredients, you can transform your home into a tranquil oasis and create your very own DIY spa day, all on a budget.\r\n\r\n**Setting the Stage for Serenity:**\r\n\r\nThe key to a successful home spa day is creating the right atmosphere. Before you dive into the treatments, take a few moments to set the mood:\r\n\r\n* **Dim the Lights:** Soft, warm lighting creates a calming ambiance. Light some candles, preferably scented with relaxing essential oils like lavender or chamomile.\r\n* **Play Relaxing Music:** Create a soothing playlist of instrumental music, nature sounds, or your favorite calming tunes.\r\n* **Declutter Your Space:** A clean and organized environment promotes relaxation. Clear away any clutter from your bathroom and create a peaceful sanctuary.\r\n* **Gather Your Supplies:** Have all your DIY spa ingredients and tools within reach, so you don't have to interrupt your relaxation.\r\n\r\n**DIY Treatments for Ultimate Relaxation:**\r\n\r\nNow, let's get to the good stuff! Here are some budget-friendly DIY treatments that will leave you feeling refreshed and rejuvenated:\r\n\r\n* **Soothing Oatmeal and Honey Face Mask:**\r\n    * Mix 2 tablespoons of oatmeal (finely ground), 1 tablespoon of honey, and a little warm water to form a paste.\r\n    * Apply the mask to your face and leave it on for 15 minutes.\r\n    * Rinse with warm water for soft, glowing skin.\r\n* **Muscle-Relaxing Epsom Salt Bath:**\r\n    * Add 2 cups of Epsom salts to a warm bath.\r\n    * Soak for 20 minutes to relieve muscle tension and promote relaxation.\r\n    * Add a few drops of your favorite essential oil for an aromatherapy boost.\r\n* **Hydrating Coconut Oil Hair Mask:**\r\n    * Warm up a few tablespoons of coconut oil.\r\n    * Apply it to your hair, focusing on the ends.\r\n    * Wrap your hair in a warm towel and leave it on for 30 minutes.\r\n    * Shampoo and condition as usual for silky, smooth hair.\r\n* **Exfoliating Sugar Scrub:**\r\n    * Mix equal parts sugar (brown or white) and coconut oil or olive oil.\r\n    * Add a few drops of essential oil for fragrance.\r\n    * Gently massage the scrub onto your body in circular motions.\r\n    * Rinse with warm water for soft, smooth skin.\r\n\r\n**Enhancing Your Relaxation:**\r\n\r\nTo further enhance your home spa day, incorporate these relaxation techniques:\r\n\r\n* **Deep Breathing Exercises:** Practice deep, slow breaths to calm your mind and body.\r\n* **Guided Meditation:** Use a guided meditation app or video to help you relax and focus.\r\n* **Read a Book or Listen to a Podcast:** Immerse yourself in a good book or an engaging podcast.\r\n* **Hydrate and Nourish:** Drink plenty of water or herbal tea and enjoy healthy snacks like fruits and nuts.\r\n\r\n**The Benefits of a Budget-Friendly Spa Day:**\r\n\r\nCreating a DIY home spa day offers numerous benefits:\r\n\r\n* **Stress Relief:** Taking time for self-care helps reduce stress and promote relaxation.\r\n* **Improved Mood:** Pampering yourself can boost your mood and increase feelings of well-being.\r\n* **Cost-Effective:** You can enjoy the benefits of a spa day without spending a lot of money.\r\n* **Convenience:** You can enjoy a spa day in the comfort of your own home, whenever you want.\r\n\r\n**Conclusion:**\r\n\r\nA DIY home spa day is a perfect way to unwind, relax, and rejuvenate without breaking the bank. By creating a tranquil atmosphere and using simple DIY treatments, you can transform your home into a personal oasis. So, treat yourself to a little pampering and experience the bliss of a budget-friendly spa day.",
+    "publish_at": "2025-03-14T06:26:41Z",
+    "created_at": "2025-03-14T06:27:02.555Z",
+    "updated_at": "2025-03-15T07:53:41.702Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "The Power of Journaling: Benefits and Techniques",
+    "slug": "the-power-of-journaling-benefits-and-techniques",
+    "author": 1,
+    "body": "In the whirlwind of modern life, it's easy to lose touch with ourselves. We're bombarded with information, demands, and distractions, leaving little room for introspection. That's where journaling comes in. It's more than just a diary; it's a powerful tool for self-discovery, stress relief, and personal growth.\r\n\r\nJournaling isn't about writing perfectly crafted prose. It's about creating a safe space for your thoughts, feelings, and experiences. It's a way to listen to your inner voice and gain clarity in a chaotic world.\r\n\r\n**The Transformative Benefits of Journaling:**\r\n\r\n* **Stress and Anxiety Reduction:** Writing about your worries and anxieties can help you process them and release pent-up emotions. It provides an outlet for difficult feelings, helping you gain perspective.\r\n* **Improved Self-Awareness:** Journaling encourages introspection, allowing you to explore your thoughts, beliefs, and values. This leads to a deeper understanding of yourself and your motivations.\r\n* **Enhanced Emotional Intelligence:** By reflecting on your experiences, you can develop a greater understanding of your emotions and how they influence your behavior.\r\n* **Boosted Creativity and Problem-Solving:** Journaling can spark new ideas and help you find creative solutions to problems. It allows you to brainstorm, explore different perspectives, and think outside the box.\r\n* **Goal Tracking and Personal Growth:** Journaling can help you track your progress towards your goals, identify patterns in your behavior, and celebrate your achievements.\r\n* **Increased Mindfulness:** The act of writing can bring you into the present moment, helping you focus on your thoughts and feelings without judgment.\r\n\r\n**Exploring Different Journaling Techniques:**\r\n\r\nThere's no one-size-fits-all approach to journaling. Experiment with different techniques to find what works best for you:\r\n\r\n* **Free Writing:** Simply write whatever comes to mind, without worrying about grammar or structure. This is a great way to release your thoughts and feelings without censorship.\r\n* **Gratitude Journaling:** Focus on what you're grateful for each day. This practice can cultivate a positive mindset and increase your overall well-being.\r\n* **Prompt Journaling:** Use prompts to guide your writing. This can be helpful if you're unsure what to write about. Many online resources offer journaling prompts for various topics.\r\n* **Bullet Journaling:** This flexible system combines journaling, planning, and task management. It uses symbols and abbreviations to organize your thoughts and tasks efficiently.\r\n* **Morning Pages:** Write three pages of stream-of-consciousness thoughts first thing in the morning. This practice can help clear your mind and set intentions for the day.\r\n* **Reflective Journaling:** After an event, or at the end of the day, write about what happened, how it made you feel, and what you learned.\r\n\r\n**Tips for Building a Consistent Journaling Habit:**\r\n\r\n* **Set a Specific Time:** Choose a time that works best for you, whether it's first thing in the morning, during your lunch break, or before bed.\r\n* **Find a Journal You Love:** Choose a journal that inspires you to write. It could be a beautiful notebook, a digital journal, or even a simple piece of paper.\r\n* **Create a Comfortable Environment:** Find a quiet and peaceful place where you can journal without distractions.\r\n* **Don't Worry About Perfection:** Journaling is about expressing yourself, not writing a masterpiece.\r\n* **Start Small:** Even a few minutes of journaling each day can make a big difference.\r\n* **Be Patient:** Building a journaling habit takes time and consistency.\r\n\r\n**Conclusion:**\r\n\r\nJournaling is a powerful tool for self-discovery, stress relief, and personal growth. By creating a safe space for your thoughts and feelings, you can unlock your inner voice and live a more mindful and fulfilling life. So, grab a pen and paper, and start your journaling journey today.",
+    "publish_at": "2025-03-14T06:27:02Z",
+    "created_at": "2025-03-14T06:27:25.242Z",
+    "updated_at": "2025-03-14T06:34:57.887Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Jakarta Underwater: Understanding and Coping with the City's Persistent Floods",
+    "slug": "jakarta-underwater-understanding-and-coping-with-the-citys-persistent-floods",
+    "author": 1,
+    "body": "Jakarta, a sprawling metropolis, faces a recurring challenge: floods. Every rainy season, and sometimes even outside of it, parts of the city find themselves submerged, disrupting lives and causing significant damage. This isn't just a weather event; it's a complex issue with deep-rooted causes and far-reaching consequences.\r\n\r\n**The Reality of Jakarta's Floods:**\r\n\r\nFor many Jakartans, flooding is a familiar and unwelcome part of life. Images of submerged streets, displaced residents, and flooded homes are a stark reminder of the city's vulnerability. These floods aren't just a minor inconvenience; they can lead to:\r\n\r\n* **Disrupted Daily Life:** Commuting becomes a nightmare, businesses close, and schools shut down.\r\n* **Economic Losses:** Damage to property, infrastructure, and businesses results in significant financial losses.\r\n* **Health Risks:** Floods can contaminate water supplies, leading to the spread of waterborne diseases.\r\n* **Displacement and Hardship:** Many residents, especially those in low-lying areas, are forced to evacuate their homes.\r\n\r\n**The Complex Causes:**\r\n\r\nJakarta's floods are caused by a confluence of factors:\r\n\r\n* **Heavy Rainfall:** Jakarta's tropical climate brings heavy rainfall, especially during the monsoon season.\r\n* **Land Subsidence:** Over-extraction of groundwater has caused significant land subsidence, making the city more susceptible to flooding.\r\n* **River Overflow:** Jakarta is traversed by numerous rivers, which often overflow during heavy rainfall.\r\n* **Poor Drainage Systems:** Inadequate drainage systems and clogged waterways exacerbate flooding.\r\n* **Urban Development:** Rapid urbanization and the lack of green spaces contribute to increased runoff.\r\n* **Upstream issues:** Deforestation and poor water management in upstream regions also contribute to the amount of water flowing into Jakarta.\r\n\r\n**Coping and Mitigation Efforts:**\r\n\r\nWhile the challenges are significant, efforts are underway to mitigate flooding:\r\n\r\n* **Infrastructure Improvements:** The government is investing in improving drainage systems, building reservoirs, and rehabilitating rivers.\r\n* **Land Subsidence Control:** Measures are being taken to control groundwater extraction and promote alternative water sources.\r\n* **Flood Early Warning Systems:** Advanced warning systems are being implemented to provide timely alerts to residents.\r\n* **Community Preparedness:** Educating residents on flood preparedness and evacuation procedures is crucial.\r\n* **Green Spaces:** Creating and preserving green spaces can help absorb rainwater and reduce runoff.\r\n* **Upstream collaboration:** Working with upstream regions to improve water management is vital.\r\n\r\n**What Can Residents Do?**\r\n\r\nIn the face of recurring floods, residents can take steps to protect themselves and their property:\r\n\r\n* **Stay Informed:** Monitor weather forecasts and flood alerts.\r\n* **Prepare an Emergency Kit:** Include essential items like food, water, medicine, and a flashlight.\r\n* **Elevate Valuables:** Move valuable items to higher ground.\r\n* **Know Evacuation Routes:** Familiarize yourself with evacuation routes and designated shelters.\r\n* **Maintain Drainage Systems:** Keep drainage systems around your home clean and clear.\r\n* **Support sustainable practices:** supporting green spaces, and reduced groundwater usage will have a positive impact.\r\n\r\n**Looking Ahead:**\r\n\r\nAddressing Jakarta's floods requires a multi-faceted approach involving government action, community participation, and individual responsibility. While the challenges are immense, a collective effort can help build a more resilient and flood-resistant city.\r\n\r\n**Call to Action:**\r\n\r\nWhat are your thoughts on Jakarta's floods? Share your experiences and ideas for solutions in the comments below. Let's work together to build a safer and more sustainable Jakarta.",
+    "publish_at": "2025-03-14T06:39:14Z",
+    "created_at": "2025-03-14T06:39:44.431Z",
+    "updated_at": "2025-03-14T06:39:44.431Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 9,
+    "name": "Jaguar",
+    "email": "jaguar@gmail.com",
+    "body": "Looks Interesting!",
+    "created_at": "2025-03-15T07:01:07.295Z",
+    "updated_at": "2025-03-15T07:01:07.296Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 9,
+    "name": "japong",
+    "email": "japong@gmail.com",
+    "body": "2nd attempts! great blog!",
+    "created_at": "2025-03-15T07:02:47.573Z",
+    "updated_at": "2025-03-15T07:05:11.136Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 1,
+    "name": "py",
+    "email": "py@py.net",
+    "body": "print(\"Hello Python\")",
+    "created_at": "2025-03-15T07:54:59.333Z",
+    "updated_at": "2025-03-15T07:54:59.333Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 5,
+    "name": "jago",
+    "email": "jago@syariah.com",
+    "body": "Cozy... very cozy spot!",
+    "created_at": "2025-03-15T09:07:16.757Z",
+    "updated_at": "2025-03-15T09:07:16.757Z",
+    "active": true
+  }
+}
+]
