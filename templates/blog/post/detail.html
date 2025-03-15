@@ -12,6 +12,16 @@
     <a href="{% url 'blog:post_share' post.id %}">Share this post</a>
   </p>
 
+  <!-- Similar Posts -->
+  <h2>Similar posts</h2>
+  {% for post in similar_posts %}
+    <p>
+      <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+    </p>
+  {% empty %}
+    There are no similar posts yet.
+  {% endfor %}
+
   <!-- Comments -->
   {% with total_comments=comments.count %}
     <h2>{{ total_comments }} comment{{ total_comments|pluralize }}</h2>
@@ -28,6 +38,12 @@
     <p>There are no comments.</p>
   {% endfor %}
 
+  <!-- Back To Post List -->
+  <div>
+    <a href="{% url 'blog:post_list' %}">Back To Posts</a>
+  </div>
   <!-- Comment's Form -->
-  {% include 'blog/post/includes/comment_form.html' %}
+  <div>
+    {% include 'blog/post/includes/comment_form.html' %}
+  </div>
 {% endblock %}
