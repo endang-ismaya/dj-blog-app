@@ -1,9 +1,11 @@
 {% load static %}
+{% load blog_tags %}
 <!DOCTYPE html>
 <html>
   <head>
     <title>
       {% block title %}
+
       {% endblock %}
     </title>
     <link href="{% static 'css/blog.css' %}" rel="stylesheet" />
@@ -16,7 +18,9 @@
     </div>
     <div id="sidebar">
       <h2>My blog</h2>
-      <p>This is my blog.</p>
+      <p>This is my blog.</p>I've written <span style="color: blue;">{% total_posts %}</span> posts so far.
+      <h3>Latest posts</h3>
+      {% show_latest_posts 3 %}
     </div>
   </body>
 </html>
