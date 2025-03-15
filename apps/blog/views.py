@@ -4,21 +4,27 @@ from django.core.paginator import Paginator
 from django.shortcuts import get_object_or_404, render
 from django.views.decorators.http import require_POST
 from django.views.generic import ListView
+from taggit.models import Tag
 
 from apps.blog.forms import CommentForm, EmailPostForm
 from apps.blog.models import Post
 
 
-def post_list(request):
+def post_list(request, tag_slug=None):
     """blog index view"""
     posts = Post.published.all()
+    tag = None
+
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        posts = posts.filter(tags__in=[tag])
 
     # pagination with 5 posts per page
     paginator = Paginator(posts, 5)
     page_number = request.GET.get("page", 1)
     posts = paginator.get_page(page_number)
 
-    context = {"posts": posts}
+    context = {"posts": posts, "tag": tag}
     return render(request, "blog/post/list.html", context)
 
 
