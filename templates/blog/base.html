@@ -19,6 +19,13 @@
     <div id="sidebar">
       <h2>My blog</h2>
       <p>This is my blog.</p>I've written <span style="color: blue;">{% total_posts %}</span> posts so far.
+
+      <!-- RSS Feed -->
+      <p>
+        <a href="{% url 'blog:post_feed' %}">Subscribe to my RSS feed</a>
+      </p>
+
+      <!-- Latest Posts -->
       <h3>Latest posts</h3>
       {% show_latest_posts 3 %}
 
